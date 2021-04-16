@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1cc434;
+}
+
+h2 {
+  text-align: center;
+}

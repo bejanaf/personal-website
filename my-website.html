@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Bejan Afshar</title>
   </head>
   <body>
@@ -16,62 +17,67 @@
     </header>
 
     <main>
-      <img src="bejan.jpg" alt="profile picture of bejan" />
+      <img src="bejan.jpg" alt="profile picture of bejan" width="250" />
 
       <section>
-        <h2>Tags with interests</h2>
-        <ul>
-          <li>Coden</li>
-          <li>lesen</li>
-          <li>Spazieren</li>
-          <li>Analysen</li>
-          <li>Finanzen</li>
-        </ul>
-      </section>
+        <article>
+          <h2>Tags with interests</h2>
+          <ul>
+            <li>Coden</li>
+            <li>lesen</li>
+            <li>Spazieren</li>
+            <li>Analysen</li>
+            <li>Finanzen</li>
+          </ul>
+        </article>
 
-      <section>
-        <h2>Tags with Skills</h2>
-        <ul>
-          <li>Unix</li>
-          <li>Git</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Javascript</li>
-        </ul>
+        <article>
+          <h2>Tags with Skills</h2>
+          <ul>
+            <li>Unix</li>
+            <li>Git</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+          </ul>
+        </article>
       </section>
 
       <section id="contact">
-        <h2>Contact Information</h2>
-        <ul>
-          <label for="adresse"></label>
-          <li id="adresse">Schmidt-Rottluff-Weg</li>
-
-          <label for="plz"></label>
-          <li id="plz">22767</li>
-
-          <label for="ort"></label>
-          <li id="ort">Hamburg</li>
-
-          <label for="mail"></label>
-          <li id="mail"><a href="cosmopolit_b@hotmail.de">Mail an Bejan</a></li>
-        </ul>
+        <article>
+          <h2>Contact Information</h2>
+          <ul>
+            <li>Schmidt-Rottluff-Weg</li>
+            <li>22767</li>
+            <li>Hamburg</li>
+            <li><a href="cosmopolit_b@hotmail.de">Mail an Bejan</a></li>
+          </ul>
+        </article>
       </section>
 
       <section>
         <h2>Profiles</h2>
-        <a href="https://github.com/bejanaf">Git</a>
-        <a href="https://codepen.io/bejan">Codepen</a>
-        <a href="https://de.linkedin.com">LinkedIn</a>
+        <a href="https://github.com/bejanaf"
+          ><img src="git1.png" alt="git logo" width="200"
+        /></a>
+        <a href="https://codepen.io/bejan"
+          ><img src="codepen1.png" alt="codepen logo" width="200"
+        /></a>
+        <a href="https://de.linkedin.com"
+          ><img src="linkedin.png" alt="linkedin logo" width="200"
+        /></a>
       </section>
 
       <section id="bio">
-        <h2>Biography</h2>
-        <p>Hier steht meine ganze Lebensgeschichte niedergeschrieben....</p>
+        <article>
+          <h2>Biography</h2>
+          <p>Hier steht meine ganze Lebensgeschichte niedergeschrieben....</p>
+        </article>
       </section>
 
       <section>
         <h2>CV</h2>
-        <table border="1">
+        <table border="0">
           <thead>
             <tr>
               <th>Von-bis</th>
@@ -81,14 +87,19 @@
           </thead>
           <tbody>
             <tr>
-              <td>April - Juli</td>
+              <td>seit April 2021</td>
               <td>Trainee WebDev</td>
               <td>neuefische GmbH</td>
             </tr>
             <tr>
-              <td>09:30 - 0:00</td>
-              <td>Online Marketing Manager</td>
-              <td>Social Media Akademie</td>
+              <td>2009 - 2020</td>
+              <td>Medientechniker</td>
+              <td>Hochschule für angewandte Wissenschaften</td>
+            </tr>
+            <tr>
+              <td>2007 - 2009</td>
+              <td>Technischer Assistent für Informatik</td>
+              <td>Gewerbeschule G10</td>
             </tr>
           </tbody>
         </table>
@@ -102,4 +113,10 @@
       </section>
     </footer>
   </body>
+
+  <!--- label funktionieren hauptsächlich in Formulare
+  mehr article verwenden in einer section
+  span abchecken
+  Logos in Verlinkung reinnehmen für profile
+  -->
 </html>
