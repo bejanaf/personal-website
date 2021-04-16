@@ -1,11 +1,87 @@
+/* Logos flexen*/
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: #1cc434;
+  background-color: green;
+  margin: 0;
+}
+
+header {
+  background-color: orange;
+  padding: 5px;
+}
+
+h1 {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-decoration: underline wavy black;
+  align-items: center;
+}
+
+#nav {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.items {
+  height: 250px;
+  width: 250px;
+  background-color: orange;
+  border: 3px solid gray;
+  margin: 25px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+.profile-links {
+  text-align: center;
 }
 
 h2 {
   text-align: center;
+}
+
+a {
+  color: grey;
+}
+
+#tabelle {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+}
+
+x.table1 {
+  border-top: 3px solid red;
+}
+
+x.table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: black;
+  border: 3px solid grey;
+  text-align: center;
+  padding: 5px;
 }

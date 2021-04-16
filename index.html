@@ -9,18 +9,23 @@
   </head>
   <body>
     <header>
-      <h1>Bejan</h1>
-      <nav>
+      <h1>Bejan Afshar</h1>
+      <nav id="nav">
         <a href="#contact">contact</a>
         <a href="#bio">bio</a>
       </nav>
     </header>
 
     <main>
-      <img src="bejan.jpg" alt="profile picture of bejan" width="250" />
+      <section class="container">
+        <article class="items">
+          <figure>
+            <img src="bejan.jpg" alt="profile picture of bejan" height="200" />
+            <figcaption>That's me, Bejan</figcaption>
+          </figure>
+        </article>
 
-      <section>
-        <article>
+        <article class="items">
           <h2>Tags with interests</h2>
           <ul>
             <li>Coden</li>
@@ -31,7 +36,7 @@
           </ul>
         </article>
 
-        <article>
+        <article class="items">
           <h2>Tags with Skills</h2>
           <ul>
             <li>Unix</li>
@@ -41,11 +46,9 @@
             <li>Javascript</li>
           </ul>
         </article>
-      </section>
 
-      <section id="contact">
-        <article>
-          <h2>Contact Information</h2>
+        <article class="items">
+          <h2 id="contact">Contact Information</h2>
           <ul>
             <li>Schmidt-Rottluff-Weg</li>
             <li>22767</li>
@@ -53,31 +56,33 @@
             <li><a href="cosmopolit_b@hotmail.de">Mail an Bejan</a></li>
           </ul>
         </article>
-      </section>
 
-      <section>
-        <h2>Profiles</h2>
-        <a href="https://github.com/bejanaf"
-          ><img src="git1.png" alt="git logo" width="200"
-        /></a>
-        <a href="https://codepen.io/bejan"
-          ><img src="codepen1.png" alt="codepen logo" width="200"
-        /></a>
-        <a href="https://de.linkedin.com"
-          ><img src="linkedin.png" alt="linkedin logo" width="200"
-        /></a>
-      </section>
+        <article class="items">
+          <h2>Profiles</h2>
+          <article class="profile-links">
+            <a href="https://github.com/bejanaf"
+              ><img src="git1.png" alt="git logo" width="50"
+            /></a>
 
-      <section id="bio">
-        <article>
-          <h2>Biography</h2>
-          <p>Hier steht meine ganze Lebensgeschichte niedergeschrieben....</p>
+            <a href="https://codepen.io/bejan"
+              ><img src="codepen1.png" alt="codepen logo" width="50"
+            /></a>
+
+            <a href="https://de.linkedin.com"
+              ><img src="linkedin.png" alt="linkedin logo" width="50"
+            /></a>
+          </article>
+        </article>
+
+        <article class="items">
+          <h2 id="bio">Biography</h2>
+          <p>Hier steht meine ganze Lebensgeschichte....</p>
         </article>
       </section>
 
-      <section>
+      <section class="table1">
         <h2>CV</h2>
-        <table border="0">
+        <table border="0" class="table">
           <thead>
             <tr>
               <th>Von-bis</th>
@@ -114,9 +119,11 @@
     </footer>
   </body>
 
-  <!--- label funktionieren hauptsächlich in Formulare
+  <!--- 
+    label funktionieren hauptsächlich in Formulare
   mehr article verwenden in einer section
-  span abchecken
-  Logos in Verlinkung reinnehmen für profile
+  span elemente nebeneinander platzieren
+
+  figure -> img -> figcaption, Bild und darunter mit figcaption Text positioniert
   -->
 </html>
