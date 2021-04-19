@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="contact.css" />
+    <!-- <link rel="stylesheet" href="contact.php" /> -->
+    <title>Contact Formular</title>
+  </head>
+  <body>
+    <section id="container-contact">
+      <div class="h1">
+        <h1>Nehmen Sie hier kontaktr auf!</h1>
+      </div>
+      <div>
+        <div class="gender-priority">
+          <label for="gender"
+            >Anrede:
+            <label for="male"
+              >Herr
+              <input type="radio" name="gender" />
+            </label>
+
+            <label for="female"
+              >Frau
+              <input type="radio" name="gender" />
+            </label>
+
+            <label for="diverse"
+              >Diverse
+              <input type="radio" name="gender" />
+            </label>
+          </label>
+
+          <label for="priority">Priorität: </label>
+          <select name="priority" id="priority">
+            <option value="job">Jobausschreibung</option>
+            <option value="assignement">Auftragsangebot</option>
+            <option value="others">anderes</option>
+          </select>
+        </div>
+
+        <div class="full-name">
+          <label for="first-name"
+            >Vorname:
+            <input
+              type="text"
+              name="first-name"
+              placeholder="Geben Sie Ihren Vornamen ein"
+          /></label>
+
+          <label for="last-name"
+            >Nachname:
+            <input
+              type="text"
+              name="lastname"
+              placeholder="Bitte geben Sie Ihren Nachnamen ein"
+          /></label>
+        </div>
+
+        <div class="telephone-mail">
+          <label for="telephone"
+            >Telefonnumer:
+            <input
+              type="text"
+              name="telephone"
+              placeholder="Geben Sie Ihre Telefonnumer ein"
+          /></label>
+
+          <label for="email"
+            >E-Mail:
+            <input
+              type="text"
+              name="email"
+              placeholder="Geben Sie Ihre E-Mail Adresse ein"
+          /></label>
+        </div>
+
+        <div class="contact-comment">
+          <label for="comment"></label>
+          <textarea name="comment" id="" cols="80" rows="10"></textarea>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
