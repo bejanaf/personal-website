@@ -1,5 +1,9 @@
 19.04.2021
 
+Selectoren:
+
+<!-- classen, IDs, attribute -->
+
 Grid 16.04.2021
 
 <section> / <main>

@@ -12,6 +12,8 @@ body {
 header {
   background-color: orange;
   padding: 5px;
+  display: flex;
+  justify-content: center;
 }
 
 h1 {
